@@ -1,8 +1,8 @@
 # Pavel Serhiyenia
 
-**email:** pash.pahs@gmail.com
-**GIT:** [Ссылка](https://github.com/Pashkanye)
-**Linkedin:** [Ссылка](https://www.linkedin.com/in/pavel-serhiyenia-9b71051a2/)
+* **email:** pash.pahs@gmail.com
+* **GIT:** [Ссылка](https://github.com/Pashkanye)
+* **Linkedin:** [Ссылка](https://www.linkedin.com/in/pavel-serhiyenia-9b71051a2/)
 
 ## About Me
 I am passionate about my work. Because I love what I do, I have a steady source of motivation 
@@ -20,7 +20,7 @@ videos in Adobe Premiere to explain a problem for engineers from Germany.
 
 ## Code example
 
-'''
+```
 header {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.4),
@@ -31,7 +31,7 @@ header {
   background-size: cover;
   height: 100vh;
 }
-'''
+```
 
 ## Education
 

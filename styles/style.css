@@ -9,10 +9,15 @@ html {
     background: #fff;
 }
 
+ion-icon {
+    font-size: 32px;
+    color: #d6b341;
+}
+
 header {
     color: #fff;
-    background: #68A8B5;
-    height: 10vh;
+    background: linear-gradient(to right, #ffd54d, #d6b341);
+    height: 65px;
     width: 100vw;
     position: fixed;
     top: 0; 
@@ -35,15 +40,25 @@ h2 {
     font-size: 1.5em;
 }
 
+pre {
+    background: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: var(--ff-mono);
+    line-height: 1.30769231;
+    color: var(--highlight-color);
+    border: 1px solid rgb(255, 110, 66);
+    border-radius: 5px;
+    margin: 0 10px;
+}
 
 nav {
     float:right;
     font-weight: 200;
-    height: 10vh;
+    height: 65px;
 }
 
 .nav-list {
-    padding: 3vh 0;
+    padding: 16px 0;
 }
 
 nav li {
@@ -77,17 +92,29 @@ nav li {
 }
 
 .main-container {
-    margin-top: 10vh;
+    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .section {
-    width: calc(50% - 40px);
-    padding: 10px;
+    width: calc(50% - 30px);
+    margin: 10px 0;
     padding-bottom: 35px;
-    border-bottom: 1px solid #672f2f;
+    background: rgb(185, 185, 185);
+    border-radius: 5px;
+    border-bottom: 2px solid #d6b341;
+}
+
+.section div {
+    padding: 10px 30px;
+}
+
+.section h2 {
+    background: linear-gradient(to right, #ffd54d, #d6b341);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 #name-and-photo {
@@ -95,7 +122,9 @@ nav li {
     padding: 30px 50px 50px;
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid #000;
+    background: rgb(185, 185, 185);
+    border-radius: 5px;
+    border-bottom: 5px solid #d6b341;
 }
 
 #name-title {
@@ -107,8 +136,8 @@ nav li {
 }
 
 #name-title h1 {
-    border-bottom: 1px solid #000;
-    padding-bottom: 2vh;
+    border-bottom: 2px solid #d6b341;
+    padding-bottom: 10px;
 }
 
 #name-title h2 {
@@ -116,30 +145,85 @@ nav li {
 }
 
 #profile-photo {
-    height: 300px;
+    height: 250px;
     border-radius: 5px;
+    border: 10px solid #d6b341;
+    background: #d6b341;
 }
 
-#contacts {
-
+#contacts-section {
+    
 }
 
-#about-me {
-
+#contacts-section li {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40%;
+    height: 32px;
 }
 
-#skills {
-
+.contacts-text {
+    margin-left: 10px;
 }
 
-#code {
-
+#contacts-section li a:link, 
+#contacts-section li a:visited {
+    color: #18353c;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;   
 }
 
-#projects {
-
+#contacts-section li a:hover, 
+#contacts-section li a:active {
+    color: black;
+    text-decoration: underline;
+    transition: background-color 0.5s;
 }
 
-#education {
+#skills-section ul {
+    list-style-type: "\2B50";
+    line-height: 1.9;	
+    margin-left: 20px;
+}
+#skills-section li {
+    color: #18353c;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none; 
+    padding-left: 10px; 
+}
 
+footer {
+    background: linear-gradient(to right, #ffd54d, #d6b341);
+    padding: 20px;  
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+  }
+
+  #git-link a:link, 
+  #git-link a:visited {
+      color: #18353c;
+      font-weight: 600;
+      font-size: 20px;
+      text-decoration: none;   
+  }
+  
+  #git-link a:hover, 
+  #git-link a:active {
+      color: black;
+      text-decoration: underline;
+      transition: background-color 0.5s;
+  }
+
+  .rss {
+    width: 121px;
+    height: 45px;
 }

@@ -1,0 +1,145 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #fff;
+}
+
+header {
+    color: #fff;
+    background: #68A8B5;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    z-index: 9999;
+}
+
+h1 {
+    margin: 0 0;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+h2 {
+    margin: 0 0;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+
+nav {
+    float:right;
+    font-weight: 200;
+    height: 10vh;
+}
+
+.nav-list {
+    padding: 3vh 0;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 20px;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav-list li a:link, 
+.nav-list li a:visited {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #18353c;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.nav-list li a:hover, 
+.nav-list li a:active {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    transition: background-color 0.5s;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-container {
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: calc(50% - 40px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #672f2f;
+}
+
+#name-and-photo {
+    width: 100%;
+    padding: 30px 50px 50px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+}
+
+#name-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#name-title h1 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 2vh;
+}
+
+#name-title h2 {
+    text-transform: uppercase;
+}
+
+#profile-photo {
+    height: 300px;
+    border-radius: 5px;
+}
+
+#contacts {
+
+}
+
+#about-me {
+
+}
+
+#skills {
+
+}
+
+#code {
+
+}
+
+#projects {
+
+}
+
+#education {
+
+}
